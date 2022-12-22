@@ -1,10 +1,6 @@
-print('x, z, y, w')
-for x in range (2):
-   for y in range (2):
-      for z in range (2):
-         for w in range (2):
-            if not(((x and y) <= (not z)) and (x <= y) or w):
-               print(x, z, y, w)
-               
-              
-                
+alf= "0123456789abc"
+for x in alf:
+    f = int(f'186{x}4',13) + int(f'5{x}716',13)
+    if f % 11 == 0:
+        print(f//11)
+        break
